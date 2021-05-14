@@ -2,29 +2,31 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CircusTrein
-{
-    public enum FoodType
+    namespace CircusTrein
     {
-        Carnivore,
-        Herbivore
-    } 
-   
-   
-    class Animal
-    {
-        public FoodType FoodType { get; set; }
-        public int Size { get; set; }
-
-        public Animal(FoodType foodtype, int size)
+        public List<Animal> animalList;
+    
+        public enum FoodType
         {
-            this.FoodType = foodtype;
-            this.Size = size;
-        }
-
-        public override string ToString()
+            Carnivore,
+            Herbivore
+        } 
+   
+        class Animal
         {
-            return string.Format("Het dier is een {0}, en de grootte is {1}", FoodType, Size);
+            public FoodType FoodType { get; set; }
+            public int Size { get; set; }
+
+            public Animal(FoodType foodtype, int size)
+            {
+                this.FoodType = foodtype;
+                this.Size = size;
+            }
+
+            public override string ToString()
+            {
+                return string.Format("Het dier is een {0}, en de grootte is {1}", FoodType, Size);
+            }
+            Animal.animalList.Add()
         }
     }
-}
