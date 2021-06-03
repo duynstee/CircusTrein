@@ -5,3 +5,10 @@ C:\Users\olafd\source\repos\CircusTrein\CircusTrein\obj\Debug\CircusTrein.csproj
 C:\Users\olafd\source\repos\CircusTrein\CircusTrein\obj\Debug\CircusTrein.csproj.CoreCompileInputs.cache
 C:\Users\olafd\source\repos\CircusTrein\CircusTrein\obj\Debug\CircusTrein.exe
 C:\Users\olafd\source\repos\CircusTrein\CircusTrein\obj\Debug\CircusTrein.pdb
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\obj\Debug\CircusTrein.csprojAssemblyReference.cache
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\obj\Debug\CircusTrein.csproj.CoreCompileInputs.cache
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\obj\Debug\CircusTrein.exe
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\obj\Debug\CircusTrein.pdb
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\bin\Debug\CircusTrein.exe.config
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\bin\Debug\CircusTrein.exe
+C:\Users\olafd\Documents\GitHub\CircusTrein\CircusTrein\bin\Debug\CircusTrein.pdb

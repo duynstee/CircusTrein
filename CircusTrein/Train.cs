@@ -8,6 +8,8 @@ namespace CircusTrein
 {
     class Train
     {
+        List<Animal> animalList;
+        
         public List<Wagon> listWagons;
 
         public Train(List<Wagon> listWagons)
@@ -15,12 +17,13 @@ namespace CircusTrein
             this.listWagons = listWagons;
         }
 
-
-        public void AddWagonIncludingAnimal(Animal animal)
+        public List<Animal> OrderList(List<Animal> animalList)
         {
+                var OrderByFoodType = animalList
+                    .OrderBy(z => z.FoodType)
+                    .ThenByDescending(z => z.Size).ToList();
 
-            listWagons.Add(new Wagon(animal));
-
+                return OrderByFoodType;
         }
     }
 }

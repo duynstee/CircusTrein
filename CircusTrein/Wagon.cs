@@ -18,9 +18,10 @@ namespace CircusTrein
 
         }
 
-        public Wagon(List<Animal> animals, Animal animal)
+        public Wagon(Animal animal)
         {
-            this.animals = animals;
+            this.animals = new List<Animal>();
+             
             animals.Add(animal);
         }
 
